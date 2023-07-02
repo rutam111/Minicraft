@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.showcase {
+  background-color: #393939;
+}
+
+nav {
+  display: flex;
+  justify-content: start;
+}
+
+ul li {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 30px;
+  margin-top: -30px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 104.4%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.btns button {
+  width: 195px;
+  height: 44px;
+  background: #00980f;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  margin-left: 15px;
+  margin-left: 200px;
+}
+
+.btns button:hover {
+  color: aqua;
+  background-color: rgb(60, 132, 108);
+}
+
+.showcase h1 {
+  color: #ffffff;
+}
+
+.tea {
+  background-image: url(IMAGES/hero.avif);
+  width: 1230px;
+  height: 699px;
+}
+
+.tea-2 button {
+  width: 195px;
+  height: 44px;
+  background: #00980f;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  margin-left: 120px;
+}
+
+.tea-2 button:hover {
+  color: aqua;
+  background-color: rgb(60, 132, 108);
+}
+
+.tea-2 button p h1 {
+  margin-top: -30px;
+}
+
+.tea-2 {
+  color: #ffffff;
+}
+
+.AWM-BOOM h1 {
+  text-align: center;
+}
+
+.dragen-1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.dragen-1 h1 {
+  text-align: center;
+  color: #00980f;
+  margin-left: -100px;
+}
+
+.dragen-1 p {
+  text-align: center;
+  color: #000000;
+  margin-left: -100px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 40%;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+.grid-item img{
+  width: 400px;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.to-and-to h1 p {
+  display: flex;
+  justify-content: end;
+}
+
+
+.to-and-to {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.baby h1 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.baby img {
+  margin: 50px;
+}
+
+.gold button {
+  width: 195px;
+  height: 44px;
+  background: #00980f;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  margin-left: 550px;
+}
+
+.gold button:hover {
+  color: #000000;
+  background-color: teal;
+}
+
+.gold p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.fifa {
+  margin-top: 10px;
+  background-color: #000000;
+}
+
+.minosko h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.minosko img {
+
+  margin-left: 300px;
+}
+
+footer .five img {
+  margin: 20px;
+}
+
+.five {
+  background-color: #202020;
+}
+
+.five h5 {
+  color: #ffffff;
+  margin: 20px;
+}
+
+.five pre {
+  margin-top: 100px;
+  color: #00980f;
+  margin: 20px;
+}
+
+.we h2 {
+  color: #ffffff;
+  text-align: center;
+
+}
+
+.we p:hover {
+  color: #ffffff;
+  text-align: center;
+
+}
+
+.we p {
+  color: #00980f;
+  text-align: center;
+
+}
+
+.we {
+  flex-direction: column;
+  margin-top: -260px;
+}
+
+.losing h2 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.losing p:hover {
+  color: #ffffff;
+  text-align: center;
+
+}
+
+.losing p {
+  color: #00980f;
+  text-align: center;
+
+}
+
+.losing {
+  margin-left: 500px;
+  flex-direction: column;
+  margin-top: -200px;
+}
+
+.losing img {
+  margin-left: 600px;
+  margin-top: -100%;
+}
+
+.second {
+  margin-top: 10px;
+  background-color: #494949;
+}
+
+.second button {
+  margin-top: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  width: 100px;
+}
+
+.second button:hover {
+  color: aqua;
+  background-color: darkblue;
+}
+
+.second pre {
+  color: #ffffff;
+}
+
+.second p {
+  color: #ffffff;
+}
+
+.boom img {
+  margin-left: 1000px;
+  margin-top: -40px;
+}
